@@ -1,1 +1,3 @@
 # AME220Spring2022
+1. Sophia Lungo
+2. 1214345326
