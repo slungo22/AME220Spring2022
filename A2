@@ -2,6 +2,12 @@
 <html>
 <head>
 <title> My Resume </title>
+<style>
+    th,td{
+        border: 1px solid black; 
+        border-radius: 10px; 
+    }
+</style>
 </head>
 
 <body>
@@ -16,6 +22,35 @@
 <p>Get a web programming job.</p>
 
 <h2>Education</h2>
+<table style = 'border : 1px solid black; border-collapse: collapse'>
+<thead>
+    <tr>
+        <th>Degree/Diploma</th>
+        <th>School</th>
+        <th>Year</th>
+    </tr>
+</thead>
+<tbody>
+
+    <tr>
+        <th>Villa</th>
+        <th>Xavier</th>
+        <th>ASU</th>
+    </tr>
+
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </tr>
+
+    <tr>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+    </tr>
+
+</tbody></table>
 
 <h2>Experience</h2>
 <ol>
@@ -30,4 +65,3 @@
     <li>Reference 2</li>
     <li>Reference 3</li>
 </ul>
-
