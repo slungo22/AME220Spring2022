@@ -1,1 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title> My Resume </title>
+</head>
+
+<body>
+
+<h1> Sophia Lungo </h1>
+<img src = ''>
+<a href = "my number">My Number</a><br>
+<a href = "my address">My Address</a><br>
+<a href = "my email">My Email</a><br>
+
+<h2>Objective</h2>
+<p>Get a web programming job.</p>
+
+<h2>Education</h2>
+
+<h2>Experience</h2>
+<ol>
+    <li><strong>Heading:</strong></li>
+    <li><strong>Heading:</strong></li>
+    <li><strong>Heading:</strong></li>
+</ol>
+
+<h2>References</h2>
+<ul>
+    <li>Reference 1</li>
+    <li>Reference 2</li>
+    <li>Reference 3</li>
+</ul>
 
