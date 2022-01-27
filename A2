@@ -33,35 +33,35 @@
 <tbody>
 
     <tr>
-        <th>Villa</th>
-        <th>Xavier</th>
-        <th>ASU</th>
+        <th>n/a</th>
+        <th>Villa Montessori</th>
+        <th>2005-2014</th>
     </tr>
 
     <tr>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
+        <th>High school diploma</th>
+        <th>Xavier College Preparatory</th>
+        <th>2014-2018</th>
     </tr>
 
     <tr>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
+        <th>not yet graduated</th>
+        <th>Arizona State University</th>
+        <th>2018-present</th>
     </tr>
 
 </tbody></table>
 
 <h2>Experience</h2>
 <ol>
-    <li><strong>Heading:</strong></li>
-    <li><strong>Heading:</strong></li>
-    <li><strong>Heading:</strong></li>
+    <li><strong>Heading: Know Java, Javascript, and Python</strong></li>
+    <li><strong>Heading: Have taken multiple computer science classes</strong></li>
+    <li><strong>Heading: Have basic programming skills</strong></li>
 </ol>
 
 <h2>References</h2>
 <ul>
-    <li>Reference 1</li>
-    <li>Reference 2</li>
-    <li>Reference 3</li>
+    <li>Reference 1: Izzy Estes</li>
+    <li>Reference 2: Sara Valentine</li>
+    <li>Reference 3: Thalia Lungo</li>
 </ul>
