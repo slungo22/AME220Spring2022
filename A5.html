@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href = "styles.css">
+<title> My Resume </title>
+<style>
+    th,td{
+        border: 1px solid black; 
+        border-radius: 10px; 
+    }
+    .darkMode{
+        background: black;
+        color: white; 
+    }
+</style>
+<scriptsrc="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+<h1> Sophia Lungo </h1>
+    <img src = 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Apis_mellifera_Western_honey_bee.jpg' width="200" height="200"><br>
+<button class="accordion">My Info</button>
+    <div class="panel">
+        <a href = "my number">My Number</a><br>
+        <a href = "my address">My Address</a><br>
+        <a href = "my email">My Email</a><br>
+        &nbsp; 
+    </div>
+
+<button class="accordion">Objective</button>
+    <div class="panel">
+        <p>Get a web programming job.</p>
+    </div>
+
+<button class="accordion">Education</button>
+    <div class = "panel">
+
+        <table style = 'border : 1px solid black; border-collapse: collapse'>
+        <thead>
+            <tr>
+                <th>Degree/Diploma</th>
+                <th>School</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th>n/a</th>
+                <th>Villa Montessori</th>
+                <th>2005-2014</th>
+            </tr>
+
+            <tr>
+                <th>High school diploma</th>
+                <th>Xavier College Preparatory</th>
+                <th>2014-2018</th>
+            </tr>
+
+            <tr>
+                <th>not yet graduated</th>
+                <th>Arizona State University</th>
+                <th>2018-present</th>
+            </tr>
+
+        </tbody></table>
+    </div>
+
+
+
+<button class="accordion">Experience</button>
+<div class="panel">
+    <p>
+        <ol>
+            <li>Know Java, Javascript, and Python</li>
+            <li>Have taken multiple computer science classes</li>
+            <li>Have basic programming skills</li>
+        </ol>
+    </p>
+</div>
+
+<button class="accordion">References</button>
+<div class="panel">
+    <p>
+
+        <li>Reference 1: Izzy Estes</li>
+        <li>Reference 2: Sara Valentine</li>
+        <li>Reference 3: Thalia Lungo</li>
+        
+    </p>
+</div>
+
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for(i = 0; 1 < acc.length; i++){
+    acc[i].addEventListener("click", function(){
+        this.classList.toggle("active"); 
+        var panel = this.nextElementSibling;
+        if(panel.style.display === "block"){
+            panel.style.display = "none"; 
+        }
+        else{
+            panel.style.display = "block"; 
+        }
+        });
+}
+</script>
+</body>
+</html>

@@ -2,10 +2,24 @@ body{
     background-color:cornflowerblue; 
     color:lightgoldenrodyellow; 
 }
-h1, h2{
-    background-color:cornsilk; 
-    color:lightsalmon;  
+
+.accordion{
+    background-color:rgb(220, 231, 255); 
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
 }
-a{
-    color:rgb(21, 72, 131);  
+.active,.accordion:hover{
+    background-color: #ccc; 
+}
+.panel{
+    padding: 0 18px;
+    background-color: cornflowerblue;
+    display: none;
+    overflow: hidden;
 }
