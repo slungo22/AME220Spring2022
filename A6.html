@@ -98,11 +98,12 @@ function refreshClock()
 {
   var now = new Date();
 
-  var hash = window.location.hash.replace("#","");
+  var hash = window.location.hash.replace("#","value");
 
   if(hash.length == 0){
     hash = "0";
   }
+
 
   var tzOffset = parseFloat(hash) *60 *60 *1000;
 
@@ -114,10 +115,10 @@ function refreshClock()
 
   var h = adjustedNow.getHours();
   if(h>=6 && h < 18){
-    document.getElementById("frame").className = "";
+    document.getElementById("timezone").className = "value";
   }
   else{
-    document.getElementById("frame").className = "night";
+    document.getElementById("timezone").className = "night";
   }
 
   var m = adjustedNow.getMinutes();
@@ -146,7 +147,7 @@ function refreshClock()
     <option value="-12_0">(UTC-12:00) International Date Line West</option>
     <option value="-11_0">(UTC-11:00) Coordinated Universal Time-11</option>
     <option value="-10_0">(UTC-10:00) Hawaii</option>
-    <option value="-9">(UTC-09:00) Alaska</option>
+    <option value="-9_0">(UTC-09:00) Alaska</option>
     <option value="-7">(UTC-08:00) Baja California</option>
     <option value="-7">(UTC-07:00) Pacific Time (US &amp; Canada)</option>
     <option value="-8">(UTC-08:00) Pacific Time (US &amp; Canada)</option>
