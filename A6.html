@@ -98,13 +98,12 @@ function refreshClock()
 {
   var now = new Date();
 
-  var hash = window.location.hash.replace("#","");
+  //var hash = window.location.hash.replace("#","");
+  var hash = document.getElemenById("timezone").value;
 
   if(hash.length == 0){
     hash = "0";
   }
- 
-  hash = document.getElemenById("timezone").value;
 
   var tzOffset = parseFloat(hash) *60 *60 *1000;
 
