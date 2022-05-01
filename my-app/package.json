@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/slungo22/AME220Spring2022/issues"
   },
-  "homepage": "https://github.com/slungo22/AME220Spring2022#readme"
+  "homepage": "https://github.com/slungo22/AME220Spring2022#readme",
+  "dependencies": {
+    "@capacitor/android": "^3.5.0",
+    "@capacitor/core": "^3.5.0"
+  }
 }
