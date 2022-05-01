@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.app",
+  "appName": "clockApp",
+  "webDir": "https://github.com/slungo22/AME220Spring2022/",
+  "bundledWebRuntime": false
+}
